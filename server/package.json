@@ -1,20 +1,24 @@
 {
-  "name": "server",
+  "name": "mern-pizza",
   "version": "1.0.0",
-  "description": "connect mongodb with express",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "sairam",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
-    "mongoose": "^8.6.3"
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.3",
+    "nodemon": "^3.0.1",
+    "server": "^0.0.3",
+    "stripe": "^14.25.0",
+    "uuid": "^9.0.1"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.7"
-  }
+  "description": ""
 }
